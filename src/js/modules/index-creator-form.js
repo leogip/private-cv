@@ -79,6 +79,9 @@ class Form {
       .finally(() => {
         setTimeout(() => {
           document.querySelector('.form__message').remove();
+          document
+            .querySelectorAll('.form__input')
+            .forEach(item => (item.value = ''));
         }, 5000);
       });
   }
