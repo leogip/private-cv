@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/var/www/u0965736/public_html/bolshovdev.ru
-    - /bin/cp -R dist $DEPLOYPATH
+    - /bin/cp -R dist/* $DEPLOYPATH
