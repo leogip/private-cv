@@ -1,0 +1,20 @@
+RewriteEngine On
+
+RewriteBase /
+
+# disable display error
+
+php_flag allow_url_fopen off
+
+#without www and with https 
+
+RewriteCond %{ENV:HTTPS} on
+RewriteRule .* - [E=SSL:s]
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http%{ENV:SSL}://%1/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} //
+RewriteCond %{QUERY_STRING} !http(s|)://
+RewriteRule .* /$0 [R=301,L]
+
+FallbackResource /index.html

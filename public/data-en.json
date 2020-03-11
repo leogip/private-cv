@@ -1,0 +1,87 @@
+{
+  "pages": [
+    {
+      "id": 0,
+      "link": "/",
+      "name": "Home",
+      "title": "Front-end developer",
+      "content": "My name is Oleg, I'm a front-end developer. My main profile is creating landing pages for medium-sized businesses. I suggest you to watch a presentation on my skills and on some projects.",
+      "buttonText": null,
+      "buttonLink": null,
+      "imageUrl": "/images/home.jpg"
+    },
+    {
+      "id": 1,
+      "link": "/skills",
+      "name": "Skills",
+      "title": "Skills developer",
+      "content": "I use modern 'features' in my work, as part of support for the project.",
+      "buttonText": "Details",
+      "buttonLink": "/skills.html",
+      "imageUrl": "/images/skills.jpg"
+    },
+    {
+      "id": 2,
+      "link": "/works",
+      "name": "Works",
+      "title": "My Works",
+      "content": "Commercial projects at the link below. And also on my <a href='https://github.com/leogip' rel='noreferrer' target='_blank'>github</a>.",
+      "buttonText": "Watch my Works",
+      "buttonLink": "/works.html",
+      "imageUrl": "/images/works.jpg"
+    },
+    {
+      "id": 3,
+      "link": "/contact",
+      "name": "Contact",
+      "title": "Contact",
+      "content": "You can contact by me in <a href='mailto:bolshovdev@yandex.ru'>email</a> and social networks. <br> or Leave your contacts",
+      "buttonText": null,
+      "buttonLink": null,
+      "imageUrl": "/images/contact.jpg"
+    }
+  ],
+  "cards": [
+    {
+      "id": 0,
+      "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png",
+      "name": "lorem",
+      "descript": "ipsum dolor set"
+    },
+    {
+      "id": 0,
+      "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png",
+      "name": "ipsum",
+      "descript": "dollor set lorem"
+    },
+    {
+      "id": 0,
+      "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png",
+      "name": "ipsum dollor set",
+      "descript": "lorem"
+    }
+  ],
+  "works": [
+    {
+      "id": 0,
+      "name": "Cross New Balance",
+      "tags": [],
+      "descript": "Lightweight, fast, adaptive. Promo site for mono products. Quick start for the project. The site is fully responsive and supported on all devices.",
+      "imageUrl": "/images/portfolio-3.jpg"
+    },
+    {
+      "id": 1,
+      "name": "SMM agency Honeylead",
+      "tags": [],
+      "descript": "The site is fully responsive and supported on all devices. Easy and quick landing with feedback forms. The site covers the need for demonstration of agency cases",
+      "imageUrl": "/images/portfolio-2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Private cinema 'Swing'",
+      "tags": [],
+      "descript": "The site is fully responsive and supported on all devices. To demonstrate the halls of the cinema, sliders and a gallery were used. A calculator was developed to calculate the cost of booking rooms, taking into account the wishes of the client.",
+      "imageUrl": "/images/portfolio-1.jpg"
+    }
+  ]
+}

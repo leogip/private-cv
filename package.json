@@ -1,0 +1,29 @@
+{
+  "name": "cv-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start-all": "parcel src/index.html src/skills.html src/works.html",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html src/skills.html src/works.html --no-source-maps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.8.4",
+    "animejs": "^3.1.0",
+    "swiper": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "cssnano": "^4.1.10",
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  }
+}
