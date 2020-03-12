@@ -1,5 +1,6 @@
 export function setLang(lang) {
   localStorage.setItem('lang', lang);
+  document.documentElement.setAttribute('lang', lang);
 }
 
 export function toggleLang() {
