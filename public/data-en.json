@@ -44,21 +44,34 @@
   "cards": [
     {
       "id": 0,
-      "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png",
-      "name": "lorem",
-      "descript": "ipsum dolor set"
+      "imageUrl": "/images/css.jpg",
+      "name": "CSS",
+      "list": [
+        "CSS3",
+        "Responsive(flex, grid)",
+        "BEM",
+        "@media, @supports",
+        "CSS variables",
+        "Accessibility"
+      ]
     },
     {
       "id": 0,
-      "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png",
-      "name": "ipsum",
-      "descript": "dollor set lorem"
+      "imageUrl": "/images/js.jpg",
+      "name": "JavaScript",
+      "list": ["ES2015", "esnext", "Pattern & CodeStyle"]
     },
     {
       "id": 0,
-      "imageUrl": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png",
-      "name": "ipsum dollor set",
-      "descript": "lorem"
+      "imageUrl": "/images/react.jpg",
+      "name": "ReactJS",
+      "list": ["Class Components", "Hooks", "Redux"]
+    },
+    {
+      "id": 0,
+      "imageUrl": "/images/nodejs.png",
+      "name": "Builders",
+      "list": ["Gulp", "Webpack", "Parcel"]
     }
   ],
   "works": [
