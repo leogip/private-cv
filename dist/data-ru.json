@@ -5,7 +5,7 @@
       "link": "/",
       "name": "Главная",
       "title": "Фронтенд разработчик",
-      "content": "Меня зовут Олег, я фронтенд разработчик. Мой основной профиль — создание посадочных страниц для среднего бизнеса. Предлагаю вам, посмотреть презантацию о моих умениях и о некоторых проектов.",
+      "content": "Меня зовут Олег, я фронтенд разработчик. Мой основной профиль — создание и запуск проектов для среднего бизнеса. Предлагаю Вам, посмотреть презантацию о моих умениях а также о некоторых проектов.",
       "buttonText": null,
       "buttonLink": null,
       "imageUrl": "/images/home.jpg"
@@ -59,13 +59,13 @@
       "id": 0,
       "imageUrl": "/images/js.jpg",
       "name": "JavaScript",
-      "list": ["ES2015", "", "", "set"]
+      "list": ["ES2015", "esnext", "Pattern & CodeStyle"]
     },
     {
       "id": 0,
       "imageUrl": "/images/react.jpg",
       "name": "ReactJS",
-      "list": ["Class Components", "Hooks", "Redux", "set"]
+      "list": ["Class Components", "Hooks", "Redux"]
     },
     {
       "id": 0,
